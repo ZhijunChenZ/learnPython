@@ -12,6 +12,7 @@ weight = float(input('请输入您的体重(kg)：'))
 #bmi = float('%.1f' % (weight / height ** 2))
 bmi = weight / height ** 2
 #print(bmi)
+print("\n")
 
 if bmi < 18.5:
     print('过轻')
